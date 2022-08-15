@@ -1,0 +1,8 @@
+{
+  "target": "mocks",
+  "ext": "json",
+  "endpoints": [
+    { "url": "https://swapi.dev/api/people", "name": "people" },
+    { "url": "https://swapi.dev/api/people/1", "name": "people-single" }
+  ]
+}
