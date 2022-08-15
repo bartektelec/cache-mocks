@@ -1,27 +1,39 @@
 {
   "name": "cache-mocks",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "## Requirements",
   "type": "module",
   "main": "dist/app.js",
   "scripts": {
-    "start": "ts-node-esm app.ts",
+    "start": "ts-node-esm src/app.ts",
     "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bartektelec/cache-mocks.git"
   },
-  "keywords": [],
+  "keywords": [
+    "mock",
+    "data",
+    "api",
+    "testing"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bartektelec/cache-mocks/issues"
   },
   "homepage": "https://github.com/bartektelec/cache-mocks#readme",
   "dependencies": {
     "@types/node": "^18.7.2",
+    "got": "^12.3.1",
     "ts-node": "^10.9.1",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@types/yargs": "^17.0.11",
+    "semantic-release": "^19.0.3"
   }
 }
