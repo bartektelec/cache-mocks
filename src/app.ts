@@ -36,9 +36,10 @@ const initApp = async () => {
       people: "https://swapi.dev/api/people",
       "people-single": "https://swapi.dev/api/people/1",
     };
-    const content = JSON.stringify(defaultEndpoints, null, 2);
+    const content =
+      "export default " + JSON.stringify(defaultEndpoints, null, 2);
 
-    const targetPath = join(pwd, "mock-list.json");
+    const targetPath = join(pwd, "mock-list.js");
 
     console.log(`Saving a default mock list file in ${targetPath}`);
 
