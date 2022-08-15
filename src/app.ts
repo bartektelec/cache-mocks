@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { access, mkdir, readFile, writeFile, constants } from "node:fs";
 import { promisify } from "node:util";
 import yargs from "yargs";
