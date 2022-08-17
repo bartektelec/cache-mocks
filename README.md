@@ -40,13 +40,19 @@ npx cache-mocks --target ./src/mocks --ext js
 ##### target
 
 `--target <x>`
+
 _Specify a target directory for the mocks to be saved_
+
 Type: `string`
+
 Default: `./mocks`
 
 ##### ext
 
 `--ext <x>`
+
 _Specify what file extension the target files should be saved with_
+
 Type: `json | js | ts`
+
 Default: `json`
